@@ -1,0 +1,60 @@
+/* 淡蓝色主题 - 校园舆情监测系统 */
+:root {
+  --theme-primary: #67b8e3;
+  --theme-primary-light: #a8d4f0;
+  --theme-primary-dark: #4a9ed4;
+  --theme-sidebar-bg: #f8fafc;
+  --theme-sidebar-active: #e8f4fc;
+}
+
+/* Element Plus 主题色覆盖 */
+html {
+  --el-color-primary: #67b8e3;
+  --el-color-primary-light-3: #8fc9eb;
+  --el-color-primary-light-5: #a8d4f0;
+  --el-color-primary-light-9: #e8f4fc;
+  --el-color-primary-dark-2: #4a9ed4;
+}
+
+/* 列表页通用样式 - 管理端列表风格 */
+.list-page-card {
+  border-radius: 12px;
+  overflow: hidden;
+}
+.list-page-card .el-card__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 20px;
+}
+.list-page-card .card-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: #67b8e3;
+}
+.list-page-card .search-form {
+  margin-bottom: 20px;
+}
+.list-page-card .list-table {
+  --el-table-row-hover-bg-color: #f0f9eb;
+  --el-table-border-color: transparent;
+  width: 100%;
+}
+.list-page-card .list-table .el-table__cell {
+  border-bottom: none !important;
+}
+.list-page-card .list-table .el-table__body tr:hover > td.el-table__cell {
+  background-color: #f0f9eb !important;
+}
+.list-page-card .pagination-wrap {
+  margin-top: 16px;
+  display: flex;
+  justify-content: flex-end;
+}
+.list-page-card .ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: block;
+  max-width: 100%;
+}
